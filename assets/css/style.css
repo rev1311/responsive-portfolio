@@ -53,6 +53,10 @@ a:hover, a:active {
     color: #4aaaa5;
 }
 
+section {
+    margin: 15px 0;
+}
+
 section .whiteblock {
     width: 95%;
     margin: 15px auto 300px;
@@ -136,6 +140,62 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+header h1 {
+    padding: 15px;
+    margin: 0 0 0 5%;
+    height: 100%
+}
 
+nav {
+    margin: 5% 0;
+    text-align: right;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 0;
+}
+
+nav ul li {
+    padding: 0 2%;
+}
+
+section .whiteblock img {
+    width: 30%;
+    margin: 0 0;
+    padding: 0 10px 10px 0;
+    float: left;
+}
     
+}
+
+@media screen and (min-width: 980px) {
+
+header h1 {
+    padding: 15px;
+    margin: 0 0 0 5%;
+    height: 100%
+}
+
+nav {
+    margin: 5% 1%;
+    text-align: right;
+}
+
+section .whiteblock {
+    width: 65%;
+    margin: 15px 2.7% 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+section .whiteblock img {
+    width: 40%;
+    margin: 0 0;
+    padding: 0 10px 3px 0;
+    float: left;
+}
 }
