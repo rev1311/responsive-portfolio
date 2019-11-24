@@ -7,6 +7,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .container-fluid {
     margin: 0 auto;
     padding: 0;
@@ -29,7 +34,6 @@ header h1 {
     margin: 0 auto;
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -60,11 +64,16 @@ section {
 section .whiteblock {
     width: 95%;
     margin: 15px auto 300px;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
     border: 1px solid #ccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777;
+}
+
+section .whiteblock h1 {
     color: #4aaaa5;
+    padding: 0 0 10px 0;
 }
 
 section .whiteblock hr {
@@ -81,10 +90,11 @@ section .whiteblock img {
 section .whiteblock p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
+    margin: 10px 0 0 0;
 }
 
 input[type=text] {
-    width: 98%;
+    width: 100%;
     padding: 5px;
 }
 
@@ -98,7 +108,7 @@ input[type=text]::placeholder  {
 }
 
 #msg {
-    width: 99%;
+    width: 100%;
     height: 100px;
     resize: none;
 }
@@ -114,9 +124,13 @@ textarea:focus {
 
 #sub {
     width: 100px;
-    height: 50px;
+    height: 35px;
     background-color: #4aaaa5;
     color: #fff;
+    padding: 0 6px;
+    margin-top: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input[type=submit]:hover {
@@ -188,8 +202,6 @@ section .whiteblock {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
 }
 
 section .whiteblock img {
