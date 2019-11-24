@@ -180,6 +180,10 @@ section .whiteblock img {
     padding: 0 10px 10px 0;
     float: left;
 }
+
+section .whiteblock hr {
+    margin-bottom: 30px;
+}
     
 }
 
