@@ -214,15 +214,17 @@ section .whiteblock hr {
     margin-bottom: 30px;
 }
 
-section .whiteblock ul {
-    /* float: right; */
+section .whiteblock .Left ul li {
+    margin: 
+}
+
+section .whiteblock .Right ul li {
+    float: right;
 }
 
 section .whiteblock ul li {
-    display: inline-block;
-    margin:0 auto;
-    /* width: 100%; */
-    text-align: center;
+    margin-bottom: 10%;
+    width: 100%;
 }
 
 section .whiteblock ul li img {
@@ -234,13 +236,13 @@ section .whiteblock ul li img {
 section .whiteblock ul li p {
     box-sizing: border-box;
     position: absolute;
-    bottom: 20%;
+    bottom: 5%;
     margin: 0 auto;
     padding: 10px;
     width: 100%;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
     text-align: center;
 }
