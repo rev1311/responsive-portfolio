@@ -84,7 +84,37 @@ section .whiteblock img {
     width: 100%;
     margin: 0 auto;
     padding: 10px 0 20px 0;
+}
+
+section .whiteblock #aboutimg {
     float: left;
+}
+
+section .whiteblock ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section .whiteblock ul li {
+    position: relative;
+}
+
+section .whiteblock ul li img {
+    width: 100%;
+}
+
+section .whiteblock ul li p {
+    position: absolute;
+    bottom: 10%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
 }
 
 section .whiteblock p {
@@ -178,11 +208,52 @@ section .whiteblock img {
     width: 30%;
     margin: 0 0;
     padding: 0 10px 10px 0;
-    float: left;
 }
 
 section .whiteblock hr {
     margin-bottom: 30px;
+}
+
+section .whiteblock ul {
+    /* float: right; */
+}
+
+section .whiteblock ul li {
+    display: inline-block;
+    margin:0 auto;
+    /* width: 100%; */
+    text-align: center;
+}
+
+section .whiteblock ul li img {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+section .whiteblock ul li p {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+section .whiteblock p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin: 10px 0 0 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
 }
     
 }
@@ -206,12 +277,13 @@ section .whiteblock {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 section .whiteblock img {
     width: 40%;
     margin: 0 0;
     padding: 0 10px 3px 0;
-    float: left;
 }
+
 }
